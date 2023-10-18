@@ -181,12 +181,21 @@ h1 {
 @media (max-width: 768px) {
     .hero {
         background-position: 0 -160px;
+    }
 
+    .card{
+        margin-bottom: 20px;
     }
 }
 @media (max-width: 576px) {
     .hero {
         background-position: -50px -35px;
-
     }   
+    
+    h1 {
+        margin-bottom: -300px;
+        font-size: 60px;
+        color: white;
+        text-shadow: 0 0 8px white;
+    }
 }
