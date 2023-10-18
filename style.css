@@ -43,6 +43,16 @@ h1 {
     height: 600px;
 }
 
+.carousel-caption h3 {
+    font-size: 50px;
+    text-shadow: 0 0 5px black;
+}
+
+.carousel-caption p {
+    font-size: 30px;
+    text-shadow: 0 0 3px black;
+}
+
 .carousel-img-one {
     display: flex;
     background-color: black;
@@ -53,76 +63,64 @@ h1 {
     height: 600px;
 }
 
+.bg-album-cover {
+    width: 100%;
+    background-color: grey;
+    background-size: cover;
+    border-left: 5px solid grey;
+    box-sizing: border-box;
+}
+
 .half-opacity {
     opacity: .8;
 }
 
 .teenfresh-ps {
-    width: 100%;
-    background-color: grey;
     background-image: url(https://static.wikia.nocookie.net/stayc/images/4/49/STAYC_TEENFRESH_concept_photo_4.jpeg/revision/latest/scale-to-width-down/1000?cb=20230807141359);
-    background-size: cover;
-    border-left: 5px solid grey;
-    box-sizing: border-box;
 }
 .teddybear-ps {
-    width: 100%;
-    background-color: grey;
     background-image: url(https://static.wikia.nocookie.net/stayc/images/2/28/STAYC_Teddy_Bear_concept_photo_%281%29.jpeg/revision/latest/scale-to-width-down/1000?cb=20230209154323);
-    background-size: cover;
-    border-left: 5px solid grey;
-    box-sizing: border-box;
 }
 
 .wnl-ps {
-    width: 100%;
-    background-color: grey;
     background-image: url(https://static.wikia.nocookie.net/kpop/images/6/64/STAYC_We_Need_Love_group_concept_photo_4.png/revision/latest/scale-to-width-down/1000?cb=20220712150340);
-    background-size: cover;
-    border-left: 5px solid grey;
-    box-sizing: border-box;
 }
 
 .ylc-ps {
-    width: 100%;
-    background-color: grey;
     background-image: url(https://static.wikia.nocookie.net/stayc/images/c/c3/STAYC_Young-Luv-com_concept_photo_%284%29.jpg/revision/latest/scale-to-width-down/1000?cb=20220213014540);
-    background-size: cover;
-    border-left: 5px solid grey;
-    box-sizing: border-box;
 }
 
 .stereotype-ps {
-    width: 100%;
-    background-color: grey;
     background-image: url(https://static.wikia.nocookie.net/stayc/images/3/32/STAYC_Stereotype_concept_photo_%282%29.jpg/revision/latest/scale-to-width-down/1000?cb=20210820154115);
-    background-size: cover;
-    border-left: 5px solid grey;
-    box-sizing: border-box;
 }
 
 .staydom-ps {
-    width: 100%;
-    background-color: grey;
     background-image: url(https://static.wikia.nocookie.net/stayc/images/7/75/STAYC_Staydom_concept_photo_%284%29.jpg/revision/latest/scale-to-width-down/1000?cb=20210331151532);
-    background-size: cover;
-    border-left: 5px solid grey;
-    box-sizing: border-box;
 }
 
 .stayc-ps {
-    width: 100%;
-    background-color: grey;
     background-image: url(https://static.wikia.nocookie.net/stayc/images/5/58/StarToAYoungCulture_ConceptImage1.jpeg/revision/latest?cb=20201028154241);
-    background-size: cover;
-    border-left: 5px solid grey;
-    box-sizing: border-box;
+    background-position: 0 -240px;
 }
 
 
+/* footer */
+.footer-con {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 50px 20px;
+    background-color: grey;
+}
 
-
-
+.footer-con .Ssocials a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 50px;
+}
+.footer-con .Ssocials a:hover {
+    color: white;
+}
 
 
 
