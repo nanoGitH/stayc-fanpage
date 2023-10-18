@@ -28,10 +28,13 @@ h1 {
     text-shadow: 0 0 8px white;
 }
 
+
+/* intro */
 .intro,
 .members {
     margin-bottom: 200px;
 }
+
 .intro h2,
 .members h2,
 .discography h2 {
@@ -39,6 +42,22 @@ h1 {
     font-weight: bold;
 }
 
+.intro .row p {
+    font-weight: 100;
+}
+
+.intro .row a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* carousel */
+.discography {
+    margin-bottom: 230px;
+}
 .carousel-item {
     height: 600px;
 }
@@ -108,23 +127,31 @@ h1 {
 .footer-con {
     display: flex;
     justify-content: space-between;
-    padding: 100px 50px 20px;
-    background-color: grey;
+    padding: 20px 50px;
+    background-color: black;
 }
 
 .footer-con .Ssocials a {
-    color: black;
+    color: white;
     font-weight: bold;
     text-decoration: none;
     padding-right: 50px;
 }
 .footer-con .Ssocials a:hover {
+    color: #715DF2;
+}
+
+.footer-con p {
+    margin: 0;
     color: white;
 }
 
-
-
-
+/* SVG */
+.svg-gg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
 
 
 
